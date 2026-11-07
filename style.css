@@ -642,4 +642,32 @@ body {
 .education-card span {
     color: #aaa;
 }
+/* MOBILE RESPONSIVE FIX */
+
+@media screen and (max-width: 768px) {
+
+    .about,
+    .education,
+    .skills,
+    .projects,
+    .certifications,
+    .contact {
+        display: block;
+        width: 100%;
+        padding: 60px 20px;
+        box-sizing: border-box;
+    }
+
+    .about-content,
+    .education-content {
+        display: block;
+        width: 100%;
+    }
+
+    .education-card {
+        margin-bottom: 20px;
+        box-sizing: border-box;
+    }
+
+}
 }
