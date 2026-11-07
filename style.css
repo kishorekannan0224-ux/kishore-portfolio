@@ -412,7 +412,7 @@ body {
     .footer-links {
         gap: 15px;
     }
-    
+}   
 /* MOBILE NAVBAR FIX */
 .navbar {
     flex-direction: column;
@@ -643,7 +643,7 @@ body {
     color: #aaa;
 }
 /* MOBILE RESPONSIVE FIX */
-
+}
 @media screen and (max-width: 768px) {
 
     .about,
@@ -668,6 +668,15 @@ body {
         margin-bottom: 20px;
         box-sizing: border-box;
     }
+/* REVEAL FIX */
 
+.reveal {
+    opacity: 1;
+    transform: none;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
 }
 }
