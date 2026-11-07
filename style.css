@@ -552,11 +552,11 @@ body {
 }
 
 /* SCROLL REVEAL ANIMATION */
-
-.reveal {
-    opacity: 0;
-    transform: translateY(50px);
-    transition: all 0.8s ease;
+.reveal 
+{
+    opacity: 1 !important;
+    transform: none !important;
+    visibility: visible !important;
 }
 
 .reveal.active 
@@ -643,7 +643,6 @@ body {
     color: #aaa;
 }
 /* MOBILE RESPONSIVE FIX */
-}
 @media screen and (max-width: 768px) {
 
     .about,
