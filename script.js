@@ -1,10 +1,13 @@
+// 3D CARD EFFECT
 
 const cards = document.querySelectorAll(
     ".skills-content > *, .projects-content > *"
 );
 
 cards.forEach((card) => {
+
     card.addEventListener("mousemove", (e) => {
+
         const rect = card.getBoundingClientRect();
 
         const x = e.clientX - rect.left;
@@ -21,27 +24,34 @@ cards.forEach((card) => {
     });
 
     card.addEventListener("mouseleave", () => {
+
         card.style.transform =
             "perspective(800px) rotateX(0) rotateY(0) scale(1)";
+
     });
-    
+
+});
+
+
+// SCROLL REVEAL ANIMATION
+
 const revealElements = document.querySelectorAll(".reveal");
 
 function revealOnScroll() {
+
     revealElements.forEach((element) => {
+
         const windowHeight = window.innerHeight;
         const elementTop = element.getBoundingClientRect().top;
 
         if (elementTop < windowHeight - 100) {
             element.classList.add("active");
         }
+
     });
+
 }
 
 window.addEventListener("scroll", revealOnScroll);
+
 revealOnScroll();
-
-});
-});
-
-});
