@@ -1,0 +1,234 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kishore Kannan | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <h2>KISHORE.</h2>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hi, I'm <span>Kishore Kannan V</span></h1>
+
+            <h2>Aspiring AI Developer | Future Data Scientist</h2>
+
+            <p class="intro">
+                I am an enthusiastic technology learner exploring
+                AI, Data Science and programming. My goal is to turn
+                creative ideas into useful real-world solutions.
+            </p>
+
+            <div class="buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+            <img src="./images/profile.png"
+                 alt="Kishore Profile">
+        </div>
+
+    </section>
+    <!-- SKILLS SECTION -->
+<section class="skills reveal" id="skills">
+
+    <div class="section-heading">
+        <p>WHAT I KNOW</p>
+        <h2>My Skills</h2>
+    </div>
+
+    <div class="skills-content">
+
+        <div class="skill-card">
+            <h3>Python</h3>
+            <p>Programming Fundamentals</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>C Programming</h3>
+            <p>Problem Solving</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>UI/UX Design</h3>
+            <p>Figma & Design</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>HTML & CSS</h3>
+            <p>Web Development</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Blender</h3>
+            <p>3D Designing</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Git & GitHub</h3>
+            <p>Version Control</p>
+        </div>
+
+    </div>
+</section>
+<!-- PROJECTS SECTION -->
+<section class="projects reveal" id="projects">
+
+    <div class="section-heading">
+        <p>MY WORK</p>
+        <h2>My Projects</h2>
+    </div>
+
+    <div class="projects-content">
+
+        <div class="project-card">
+            <h3>Personal Portfolio Website</h3>
+            <p>
+                A personal website to showcase my skills,
+                education, projects and achievements.
+            </p>
+            <span>HTML | CSS | JavaScript | Figma</span>
+        </div>
+
+        <div class="project-card">
+            <h3>UI/UX Design</h3>
+            <p>
+                Creative website interface designs
+                using Figma with modern layouts.
+            </p>
+            <span>Figma | UI/UX</span>
+        </div>
+
+        <div class="project-card">
+            <h3>Python Mini Projects</h3>
+            <p>
+                Beginner-level programming projects
+                to improve my coding and problem-solving skills.
+            </p>
+            <span>Python | Programming</span>
+        </div>
+
+    </div>
+</section>
+<!-- CERTIFICATIONS SECTION -->
+<section class="certifications reveal" id="certifications">
+
+    <div class="section-heading">
+        <p>MY LEARNING JOURNEY</p>
+        <h2>Certifications & Achievements</h2>
+    </div>
+
+    <div class="certifications-content">
+
+        <div class="certificate-card">
+            <h3>Mobile App & Web Development</h3>
+            <p>Bharathidasan University</p>
+            <span>Certification</span>
+        </div>
+
+        <div class="certificate-card">
+            <h3>See&Say Symposium</h3>
+            <p>Game Coordinator – AI & DS Symposium</p>
+            <span>Achievement</span>
+        </div>
+
+    </div>
+</section>
+<!-- CONTACT SECTION -->
+<section class="contact reveal" id="contact">
+
+    <div class="section-heading">
+        <p>GET IN TOUCH</p>
+        <h2>Contact Me</h2>
+    </div>
+
+    <div class="contact-content">
+
+        <div class="contact-card">
+            <h3>Let's Connect!</h3>
+            <p>
+                I'm always interested in learning new technologies,
+                exploring opportunities and connecting with people.
+            </p>
+
+            <div class="contact-info">
+                <p>Email: kishorekannan0224@gmail.com</p>
+
+                <p>
+                    LinkedIn:
+                    <a href="https://www.linkedin.com/in/kishore-kannan-450859444/"
+                       target="_blank">Visit Profile</a>
+                </p>
+
+                <p>
+                    GitHub:
+                    <a href="https://github.com/kishorekannan0224-ux"
+                       target="_blank">Visit GitHub</a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- FOOTER SECTION -->
+<footer class="footer">
+
+    <h2>Kishore Kannan</h2>
+
+    <p>Aspiring AI Developer | Future Data Scientist</p>
+
+    <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-line"></div>
+
+    <p class="copyright">
+        © 2026 Kishore Kannan. All Rights Reserved.
+    </p>
+</footer>
+
+<div class="cursor-glow"></div>
+
+<script>
+const glow = document.querySelector(".cursor-glow");
+
+document.addEventListener("mousemove", (e) => {
+    glow.style.left = e.clientX + "px";
+    glow.style.top = e.clientY + "px";
+});
+</script>
+
+<canvas id="particles"></canvas>
+<script src="script.js"></script>
+
+</body>
+</html>
