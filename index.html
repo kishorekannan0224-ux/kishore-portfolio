@@ -86,11 +86,13 @@
             </div>
 
             <div class="hero-image">
-                <!-- Keep your photo in the same folder and name it kishore.jpg,
-                     or change this filename to match your actual photo. -->
-               <img src="images/profile.jpg.png" alt="Kishore Kannan V" class="profile-img">
-                     onerror="this.style.display='none'; this.parentElement.classList.add('photo-missing');">
-            </div>
+    <img
+        src="./images/profile.jpg.png"
+        alt="Kishore Kannan V"
+        class="profile-img"
+        onerror="this.alt='Profile photo unavailable'; console.error('Profile image not found');"
+    >
+</div>
         </section>
 
         <!-- ABOUT -->
@@ -119,9 +121,12 @@
             <div class="company-content">
                 <div class="company-card">
                     <!-- If your logo filename differs, update deltacode-logo.png -->
-                    <img class="company-logo" src="images/deltacode-logo.jpg.png"
-                         alt="DeltaCode company logo"
-                         onerror="this.style.display='none';">
+                    <img
+    class="company-logo"
+    src="./images/deltacode-logo.jpg.png"
+    alt="DeltaCode Company Logo"
+    onerror="console.error('DeltaCode logo not found');"
+>
                     <p class="company-role">FOUNDER &amp; CEO</p>
                     <h3 class="founder-name">Kishore Kannan V</h3>
                     <h3 class="company-name">DeltaCode</h3>
