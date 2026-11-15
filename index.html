@@ -1,282 +1,306 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Kishore Kannan | Portfolio</title>
+    <title>Kishore Kannan V | Aspiring AI Developer</title>
+    <meta name="description" content="Kishore Kannan V is an aspiring AI Developer and B.Tech Artificial Intelligence and Data Science student exploring Python, Machine Learning, web development and creative technology.">
+    <meta name="author" content="Kishore Kannan V">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kishorekannan0224-ux.github.io/">
 
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Kishore Kannan V | Aspiring AI Developer">
+    <meta property="og:description" content="Explore Kishore Kannan V's portfolio, projects and AI & Data Science journey.">
+    <meta property="og:url" content="https://kishorekannan0224-ux.github.io/">
+    <!-- Change kishore.jpg if your actual photo has a different filename -->
+    <meta property="og:image" content="https://kishorekannan0224-ux.github.io/kishore.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kishore Kannan V | Portfolio">
+    <meta name="twitter:description" content="Aspiring AI Developer | Future Data Scientist">
+    <meta name="twitter:image" content="https://kishorekannan0224-ux.github.io/kishore.jpg">
+
+    <link rel="icon" href="favicon.png">
     <link rel="stylesheet" href="style.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfilePage",
+      "name": "Kishore Kannan V - Portfolio",
+      "url": "https://kishorekannan0224-ux.github.io/",
+      "mainEntity": {
+        "@type": "Person",
+        "name": "Kishore Kannan V",
+        "url": "https://kishorekannan0224-ux.github.io/",
+        "image": "https://kishorekannan0224-ux.github.io/kishore.jpg",
+        "description": "Aspiring AI Developer and B.Tech Artificial Intelligence and Data Science student interested in Python, Artificial Intelligence, Machine Learning, UI/UX design and web development.",
+        "jobTitle": "Aspiring AI Developer",
+        "sameAs": [
+          "https://www.linkedin.com/in/kishore-kannan-450859444/",
+          "https://github.com/kishorekannan0224-ux"
+        ]
+      }
+    }
+    </script>
 </head>
 
 <body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <canvas id="particles" aria-hidden="true"></canvas>
 
-    <nav class="navbar">
-        <h2>KISHORE.</h2>
+    <!-- NAVIGATION -->
+    <header class="navbar">
+        <a class="brand" href="#home">KISHORE<span>.</span></a>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#company">DeltaCode</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <section class="hero" id="home">
-
-        <div class="hero-content">
-
-            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
-
-            <h1>Hi, I'm <span>Kishore Kannan V</span></h1>
-
-            <h2>Aspiring AI Developer | Future Data Scientist</h2>
-
-            <p class="intro">
-                I am an enthusiastic technology learner exploring
-                AI, Data Science and programming. My goal is to turn
-                creative ideas into useful real-world solutions.
-            </p>
-
-            <div class="buttons">
-                <a href="#projects" class="btn">View Projects</a>
-                <a href="#contact" class="btn secondary">Contact Me</a>
+    <main>
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+                <h1>Hi, I'm <span>Kishore Kannan V</span></h1>
+                <h2>Aspiring AI Developer | Future Data Scientist</h2>
+                <p class="intro">
+                    I am an enthusiastic technology learner exploring AI, Data Science
+                    and programming. My goal is to turn creative ideas into useful
+                    real-world solutions.
+                </p>
+                <div class="buttons">
+                    <a href="#projects" class="btn">Explore My Work</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
             </div>
 
-        </div>
+            <div class="hero-image">
+                <!-- Keep your photo in the same folder and name it kishore.jpg,
+                     or change this filename to match your actual photo. -->
+               <img src="images/profile.jpg.png" alt="Kishore Kannan V" class="profile-img">
+                     onerror="this.style.display='none'; this.parentElement.classList.add('photo-missing');">
+            </div>
+        </section>
 
-        <div class="hero-image">
-            <img src="./images/profile.png"
-                 alt="Kishore Profile">
-        </div>
-
-    </section>
-    <!-- ABOUT SECTION -->
-<section class="about reveal" id="about">
-
-    <div class="section-heading">
-        <p>GET TO KNOW ME</p>
-        <h2>About Me</h2>
-    </div>
-
-    <div class="about-content">
-        <p>
-            I'm Kishore Kannan V, a first-year B.Tech
-            Artificial Intelligence and Data Science student
-            at EGS Pillay Engineering College.
-
-            I'm passionate about technology, programming,
-            Artificial Intelligence and Data Science.
-            My ambition is to become a skilled AI Developer
-            and solve real-world problems through technology.
-        </p>
-    </div>
-
-</section>
-
-<!-- EDUCATION SECTION -->
-<section class="education reveal" id="education">
-
-    <div class="section-heading">
-        <p>MY ACADEMIC JOURNEY</p>
-        <h2>Education</h2>
-    </div>
-
-    <div class="education-content">
-
-        <div class="education-card">
-            <h3>B.Tech – Artificial Intelligence & Data Science</h3>
-            <p>EGS Pillay Engineering College (Autonomous)</p>
-            <span>2026 – 2030 | Currently Studying</span>
-        </div>
-
-        <div class="education-card">
-            <h3>Higher Secondary Education</h3>
-            <p>Anuradha Mahavidyalaya Matriculation Higher Secondary School</p>
-            <span>School Education</span>
-        </div>
-
-    </div>
-
-</section>
-    <!-- SKILLS SECTION -->
-<section class="skills reveal" id="skills">
-
-    <div class="section-heading">
-        <p>WHAT I KNOW</p>
-        <h2>My Skills</h2>
-    </div>
-
-    <div class="skills-content">
-
-        <div class="skill-card">
-            <h3>Python</h3>
-            <p>Programming Fundamentals</p>
-        </div>
-
-        <div class="skill-card">
-            <h3>C Programming</h3>
-            <p>Problem Solving</p>
-        </div>
-
-        <div class="skill-card">
-            <h3>UI/UX Design</h3>
-            <p>Figma & Design</p>
-        </div>
-
-        <div class="skill-card">
-            <h3>HTML & CSS</h3>
-            <p>Web Development</p>
-        </div>
-
-        <div class="skill-card">
-            <h3>Blender</h3>
-            <p>3D Designing</p>
-        </div>
-
-        <div class="skill-card">
-            <h3>Git & GitHub</h3>
-            <p>Version Control</p>
-        </div>
-
-    </div>
-</section>
-<!-- PROJECTS SECTION -->
-<section class="projects reveal" id="projects">
-
-    <div class="section-heading">
-        <p>MY WORK</p>
-        <h2>My Projects</h2>
-    </div>
-
-    <div class="projects-content">
-
-        <div class="project-card">
-            <h3>Personal Portfolio Website</h3>
-            <p>
-                A personal website to showcase my skills,
-                education, projects and achievements.
-            </p>
-            <span>HTML | CSS | JavaScript | Figma</span>
-        </div>
-
-        <div class="project-card">
-            <h3>UI/UX Design</h3>
-            <p>
-                Creative website interface designs
-                using Figma with modern layouts.
-            </p>
-            <span>Figma | UI/UX</span>
-        </div>
-
-        <div class="project-card">
-            <h3>Python Mini Projects</h3>
-            <p>
-                Beginner-level programming projects
-                to improve my coding and problem-solving skills.
-            </p>
-            <span>Python | Programming</span>
-        </div>
-
-    </div>
-</section>
-<!-- CERTIFICATIONS SECTION -->
-<section class="certifications reveal" id="certifications">
-
-    <div class="section-heading">
-        <p>MY LEARNING JOURNEY</p>
-        <h2>Certifications & Achievements</h2>
-    </div>
-
-    <div class="certifications-content">
-
-        <div class="certificate-card">
-            <h3>Mobile App & Web Development</h3>
-            <p>Bharathidasan University</p>
-            <span>Certification</span>
-        </div>
-
-        <div class="certificate-card">
-            <h3>See&Say Symposium</h3>
-            <p>Game Coordinator – AI & DS Symposium</p>
-            <span>Achievement</span>
-        </div>
-
-    </div>
-</section>
-<!-- CONTACT SECTION -->
-<section class="contact reveal" id="contact">
-
-    <div class="section-heading">
-        <p>GET IN TOUCH</p>
-        <h2>Contact Me</h2>
-    </div>
-
-    <div class="contact-content">
-
-        <div class="contact-card">
-            <h3>Let's Connect!</h3>
-            <p>
-                I'm always interested in learning new technologies,
-                exploring opportunities and connecting with people.
-            </p>
-
-            <div class="contact-info">
-                <p>Email: kishorekannan0224@gmail.com</p>
-
+        <!-- ABOUT -->
+        <section class="about" id="about">
+            <div class="section-heading">
+                <p>GET TO KNOW ME</p>
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
                 <p>
-                    LinkedIn:
-                    <a href="https://www.linkedin.com/in/kishore-kannan-450859444/"
-                       target="_blank">Visit Profile</a>
-                </p>
-
-                <p>
-                    GitHub:
-                    <a href="https://github.com/kishorekannan0224-ux"
-                       target="_blank">Visit GitHub</a>
+                    I am Kishore Kannan V, a first-year B.Tech Artificial Intelligence
+                    and Data Science student at EGS Pillay Engineering College.
+                    I enjoy learning new technologies, exploring Artificial Intelligence,
+                    programming and UI/UX design. I want to build useful applications
+                    and grow into a professional AI Engineer.
                 </p>
             </div>
+        </section>
+
+        <!-- FOUNDER / DELTACODE -->
+        <section class="company" id="company">
+            <div class="section-heading">
+                <p>BUILDING IDEAS INTO REALITY</p>
+                <h2>Founder &amp; CEO</h2>
+            </div>
+            <div class="company-content">
+                <div class="company-card">
+                    <!-- If your logo filename differs, update deltacode-logo.png -->
+                    <img class="company-logo" src="images/deltacode-logo.jpg.png"
+                         alt="DeltaCode company logo"
+                         onerror="this.style.display='none';">
+                    <p class="company-role">FOUNDER &amp; CEO</p>
+                    <h3 class="founder-name">Kishore Kannan V</h3>
+                    <h3 class="company-name">DeltaCode</h3>
+                    <p class="company-description">
+                        DeltaCode is my technology initiative focused on building
+                        useful digital experiences, websites and creative solutions.
+                    </p>
+                    <span class="company-tag">INNOVATION • TECHNOLOGY • CREATIVITY</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section class="education" id="education">
+            <div class="section-heading">
+                <p>MY LEARNING JOURNEY</p>
+                <h2>Education</h2>
+            </div>
+            <div class="education-content">
+                <article class="education-card">
+                    <h3>B.Tech - Artificial Intelligence &amp; Data Science</h3>
+                    <p>EGS Pillay Engineering College (Autonomous)</p>
+                    <span>Currently studying | Expected graduation: 2030</span>
+                </article>
+                <article class="education-card">
+                    <h3>Higher Secondary Education</h3>
+                    <p>Anuradha Mahavidyalaya Matriculation Higher Secondary School</p>
+                    <span>School education</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="skills" id="skills">
+            <div class="section-heading">
+                <p>WHAT I AM LEARNING</p>
+                <h2>My Skills</h2>
+            </div>
+            <div class="skills-content">
+                <article class="skill-card"><h3>Python</h3><p>Programming fundamentals</p></article>
+                <article class="skill-card"><h3>C Programming</h3><p>Programming logic</p></article>
+                <article class="skill-card"><h3>UI/UX Design</h3><p>Interface and user experience design</p></article>
+                <article class="skill-card"><h3>HTML &amp; CSS</h3><p>Web development</p></article>
+                <article class="skill-card"><h3>Data Science</h3><p>Exploring data and analysis</p></article>
+                <article class="skill-card"><h3>Machine Learning</h3><p>Learning AI technologies</p></article>
+                <article class="skill-card"><h3>Blender</h3><p>3D design</p></article>
+                <article class="skill-card"><h3>Git &amp; GitHub</h3><p>Version control</p></article>
+                <article class="skill-card"><h3>CapCut</h3><p>Video editing</p></article>
+                <article class="skill-card"><h3>Figma</h3><p>UI design and prototyping</p></article>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="projects" id="projects">
+            <div class="section-heading">
+                <p>WHAT I HAVE BUILT</p>
+                <h2>My Projects</h2>
+            </div>
+            <div class="projects-content">
+                <article class="project-card">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>
+                        A personal website showcasing my background, skills,
+                        projects and learning journey in Artificial Intelligence
+                        and Data Science.
+                    </p>
+                    <span>HTML • CSS • JavaScript</span>
+                    <p><a href="https://github.com/kishorekannan0224-ux"
+                          target="_blank" rel="noopener noreferrer">View my GitHub →</a></p>
+                </article>
+                <article class="project-card">
+                    <h3>ToolNest</h3>
+                    <p>
+                        A collection of useful web-based tools developed as a
+                        project under my DeltaCode initiative.
+                    </p>
+                    <span>Web Development</span>
+                    <p><a href="https://github.com/kishorekannan0224-ux/ToolNest"
+                          target="_blank" rel="noopener noreferrer">View repository →</a></p>
+                </article>
+            </div>
+        </section>
+
+        <!-- CERTIFICATIONS -->
+        <section class="certifications" id="certifications">
+            <div class="section-heading">
+                <p>COURSES &amp; ACHIEVEMENTS</p>
+                <h2>Certifications</h2>
+            </div>
+            <div class="certifications-content">
+                <article class="certificate-card">
+                    <h3>Mobile App &amp; Web Development</h3>
+                    <p>Bharathidasan University</p>
+                    <span>Certification Program</span>
+                </article>
+                <article class="certificate-card">
+                    <h3>See&amp;Say Symposium</h3>
+                    <p>Game Coordinator Certificate</p>
+                    <span>Event Coordination</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact" id="contact">
+            <div class="section-heading">
+                <p>LET'S CONNECT</p>
+                <h2>Contact Me</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-card">
+                    <h3>Let's Connect!</h3>
+                    <p>
+                        I am interested in technology, learning opportunities
+                        and creative projects. You can reach me through the links below.
+                    </p>
+                    <div class="contact-info">
+                        <p>Email:
+                            <a href="mailto:kishorekannan0224@gmail.com">
+                                kishorekannan0224@gmail.com
+                            </a>
+                        </p>
+                        <p>LinkedIn:
+                            <a href="https://www.linkedin.com/in/kishore-kannan-450859444/"
+                               target="_blank" rel="noopener noreferrer">View LinkedIn Profile</a>
+                        </p>
+                        <p>GitHub:
+                            <a href="https://github.com/kishorekannan0224-ux"
+                               target="_blank" rel="noopener noreferrer">View GitHub Profile</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <h2>KISHORE<span>.</span></h2>
+        <p>Aspiring AI Developer | Future Data Scientist</p>
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
         </div>
+        <div class="footer-company">
+            <span>A product by <strong>DeltaCode</strong></span>
+        </div>
+        <div class="footer-line"></div>
+        <p class="copyright">© 2026 Kishore Kannan V. All Rights Reserved.</p>
+    </footer>
 
-    </div>
-</section>
-<!-- FOOTER SECTION -->
-<footer class="footer">
+    <script>
+        // Cursor glow
+        const glow = document.querySelector(".cursor-glow");
+        if (glow && window.matchMedia("(pointer: fine)").matches) {
+            window.addEventListener("mousemove", (event) => {
+                glow.style.left = event.clientX + "px";
+                glow.style.top = event.clientY + "px";
+            });
+        }
 
-    <h2>Kishore Kannan</h2>
+        // Gentle reveal animation; content remains visible if JS is unavailable.
+        if ("IntersectionObserver" in window) {
+            const revealObserver = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("is-visible");
+                        revealObserver.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.08 });
 
-    <p>Aspiring AI Developer | Future Data Scientist</p>
-
-    <div class="footer-links">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </div>
-
-    <div class="footer-line"></div>
-
-    <p class="copyright">
-        © 2026 Kishore Kannan. All Rights Reserved.
-    </p>
-</footer>
-
-<div class="cursor-glow"></div>
-
-<script>
-const glow = document.querySelector(".cursor-glow");
-
-document.addEventListener("mousemove", (e) => {
-    glow.style.left = e.clientX + "px";
-    glow.style.top = e.clientY + "px";
-});
-</script>
-
-<canvas id="particles"></canvas>
-<script src="script.js"></script>
-
+            document.querySelectorAll(
+                ".about-content, .company-card, .education-card, .skill-card, .project-card, .certificate-card, .contact-card"
+            ).forEach((element) => revealObserver.observe(element));
+        }
+    </script>
 </body>
 </html>
